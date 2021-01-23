@@ -1,4 +1,4 @@
-#HMM Accessibility Macro
+# HMM Accessibility Macro
 
 A simple macro built in python to help a twitch streamer.
 
