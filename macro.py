@@ -16,11 +16,11 @@ def change_actual_state():
 
 def change_skill():
     #If the mouse is presses, whe change the actual state and press the key related to this state
-    if(mouse.is_pressed(mouse.RIGHT)):
+    if(mouse.is_pressed(mouse.LEFT)):
         change_actual_state()
         keyboard.press_and_release(skills_states[actual_state])
         print("The State Got Changed to " + str(skills_states[actual_state]))
-        time.sleep(0.2)
+        time.sleep(0.3)
 
 
 if __name__ == "__main__":
